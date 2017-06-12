@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login </title>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Mogra|Open+Sans+Condensed:300|Patrick+Hand+SC|Source+Sans+Pro|Ubuntu|Vibur" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+	<div id="navbar">
+
+		<button class="btnav" onclick="openContent('home',this)">Home</button>
+		<button class="btnav" onclick="openContent('about',this)">About us</button>
+		<button class="btnav" onclick="openContent('blog',this)">Blogs</button>
+		<button id="log" class="btnav" onclick="openContent('login_form',this)">Login</button>
+
+	</div>
+	<div id="home" class="navcont">
+		<p>Here you can browse all your blogs and contents!!!!</p>
+	</div>
+	<div id="about" class="navcont">
+		<p>Here you can see all about us!</p>
+	</div>
+	<div id="blog" class="navcont">
+		<p>Here you can see all the blogs</p>
+	</div>
+	<div id="login_form" class="navcont">
+		<div id="login">
+			<form>
+				<input type="text" placeholder="username"><br>
+				<input type="password" placeholder="password"><br>
+				<button>LOGIN</button>
+				<p>Not Registered? <a href="#">Create an Account</a></p>
+			</form>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
