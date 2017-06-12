@@ -59,21 +59,22 @@ body{
 #login{
 	  position: relative;
 	  z-index: 1;
-	  background: #FFFFFF;
+	  
 	  max-width: 360px;
 	  margin:  0 auto ;
 	  padding: 45px;
 	  text-align: center;
-	  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	  
 }
 
 #login input{
 	
   font-family: 'Mogra', cursive;
   width: 100%;
+
   
   margin: 0 0 10px;
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -81,7 +82,7 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 70%;
 	margin: 15px 0 0;
-	color: grey;
+	color: white;
 }
 
 a[href]{
