@@ -27,8 +27,10 @@
 }
 
 body{
-	background-image: url(../images/1.jpg);
+	background: url(../images/1.jpg) no-repeat center fixed;
 	background-size: cover;
+
+
 }
 
 #navbar button:hover{
