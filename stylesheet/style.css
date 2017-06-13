@@ -51,11 +51,13 @@ body{
 
 	width: 360px;
 	margin:  auto ;
-	padding: 13% 30% ;
+	padding: 12% 30% ;
 	display: none;
 	
 }
-
+#regform{
+	display: none;
+}
 #login{
 	  position: relative;
 	  z-index: 1;
@@ -82,13 +84,13 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 70%;
 	margin: 15px 0 0;
-	color: white;
+	color: black;
 }
 
 a[href]{
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 #login button{
 	width: 100%;

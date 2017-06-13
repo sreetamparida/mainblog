@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Mogra|Open+Sans+Condensed:300|Patrick+Hand+SC|Source+Sans+Pro|Ubuntu|Vibur" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
 	<script type="text/javascript" src="scripts/script.js"></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </head>
 <body>
 	<div id="navbar">
@@ -26,12 +27,19 @@
 		<p>Here you can see all the blogs</p>
 	</div>
 	<div id="login_form" class="navcont">
-		<div id="login">
-			<form>
+		<div id="login" class="form">
+			<form class="login_form">
 				<input type="text" placeholder="username"><br>
 				<input type="password" placeholder="password"><br>
-				<button>LOGIN</button>
-				<p>Not Registered? <a href="#">Create an Account</a></p>
+				<button >LOGIN</button>
+				<p class="message">Not Registered?<a href="#">Create an account</a> </p>
+			</form>
+			<form id="regform" class="register_form">
+				<input type="text" placeholder="username"><br>
+				<input type="password" placeholder="password"><br>
+				<input type="email" placeholder="email"><br>
+				<button>REGISTER</button><br>
+				<p class="message">Registered? <a href="#">LOGIN</a> </p>
 			</form>
 			
 		</div>

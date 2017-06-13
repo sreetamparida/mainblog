@@ -11,11 +11,19 @@ function openContent(content,elmnt){
 	document.getElementById(content).style.display="block";
 	elmnt.style.backgroundColor="grey";
 	cont = document.getElementById("login_form");
+
+	$('.message a').click(function(){
+		$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+	});
+
 	window.onclick = function(event) {
     	if (event.target == cont) {
         cont.style.display = "none";
         document.getElementById("log").style.backgroundColor="black";
-
     	}
 	}
+	
+	
+
+	
 }
