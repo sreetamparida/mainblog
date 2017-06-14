@@ -51,7 +51,7 @@ body{
 
 	width: 360px;
 	margin:  auto ;
-	padding: 12% 30% ;
+	padding: 10% 30% ;
 	display: none;
 	
 }
@@ -71,14 +71,13 @@ body{
 }
 
 #login input{
-	
-  font-family: 'Mogra', cursive;
-  width: 100%;
-
-  
-  margin: 0 0 10px;
-  padding: 10px;
-  box-sizing: border-box;
+	background: transparent;
+	border: 1px solid grey;
+	font-family: 'Ubuntu',sans-serif;
+	width: 100%;
+	margin: 0 0 10px;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 #login p{
@@ -99,4 +98,10 @@ a[href]{
 	background-color: black;
 	border: 0;
 	color: white;
+}
+
+#login h3{
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	text-align: left;
 }
