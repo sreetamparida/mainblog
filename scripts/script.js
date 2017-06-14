@@ -12,9 +12,17 @@ function openContent(content,elmnt){
 	elmnt.style.backgroundColor="grey";
 	cont = document.getElementById("login_form");
 
+
 	$('.message a').click(function(){
-		$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+		$('.login_form').hide(1000);
+		$('.register_form').show(1000);
 	});
+
+	$('.rmessage a').click(function(){
+		$('.login_form').show(1000);
+		$('.register_form').hide(1000);
+	});
+	
 
 	window.onclick = function(event) {
     	if (event.target == cont) {
@@ -22,8 +30,5 @@ function openContent(content,elmnt){
         document.getElementById("log").style.backgroundColor="black";
     	}
 	}
-	
-	
-
 	
 }
