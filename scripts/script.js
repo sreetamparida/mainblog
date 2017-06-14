@@ -16,11 +16,13 @@ function openContent(content,elmnt){
 	$('.message a').click(function(){
 		$('.login_form').hide(1000);
 		$('.register_form').show(1000);
+		$('#log').text("Register");
 	});
 
 	$('.rmessage a').click(function(){
 		$('.login_form').show(1000);
 		$('.register_form').hide(1000);
+		$('#log').text("Login");
 	});
 	
 
